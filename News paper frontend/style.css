@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  color: white;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+h2,
+h3 {
+  color: rgb(167, 5, 5);
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+}
+
+section {
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+}
+
+aside {
+  flex: 40%;
+  background-color: white;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+nav a,
+aside a {
+  color: rgb(24, 27, 27);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+}
+
+figure img {
+  width: 300px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+.weather-forecast {
+  background-color: rgb(238, 163, 160);
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+footer p {
+  color: white;
+}
